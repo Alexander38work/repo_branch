@@ -1,4 +1,9 @@
 def str_func(text):
-    """С„СѓРЅРєС†РёСЏ РґР»СЏ Р·Р°РіР»Р°РІРЅС‹С… Р±СѓРєРІ"""
+    """все заглавные"""
     str_text = text.upper()
     return str_text
+
+def str_first_symbol (text):
+    """первые заглавные"""
+    str_first = text.title()
+    return str_first
